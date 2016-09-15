@@ -1,8 +1,16 @@
 import java.util.Random;
 // Creating Item Class
-public class Item {
+private class Item {
+  
   // properties 
-  public String name;
-  public int weight;  
+  private String name;
+  private int weight;  
+  
+  // constructer
+  public Item(String name, int weight) {
+    this.name = name;
+    this.weight = weight;
+  }
+
 }
   
